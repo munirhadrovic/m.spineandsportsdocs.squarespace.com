@@ -1109,6 +1109,8 @@ html body .ui-group-theme-b .ui-bar-inherit {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#aaaaaa',GradientType=0 ); /* IE6-9 */
 	font-weight: bold;
     border-bottom-color:#aaaaaa ;
+    border-top-color:#b5bdc8 ;
+
 }
 .ui-bar-b {
 	border-width: 1px;
@@ -1480,7 +1482,9 @@ div.ui-mobile-viewport {
 }
 .ui-header .ui-title,
 .ui-footer .ui-title {
-	font-size: 1em;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration:none;
 	min-height: 1.1em;
 	text-align: center;
 	display: block;
